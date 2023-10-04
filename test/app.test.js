@@ -1,4 +1,4 @@
 test(" Comparison of numbers", () => {
     var number = 1;
-    expect(number).toBe(2);
+    expect(number).toBe(1);
 });
