@@ -2,6 +2,7 @@ const http = require('http');
 const querystring = require('querystring');
 const port = process.env.PORT || 3000;
 
+// This is useless
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
